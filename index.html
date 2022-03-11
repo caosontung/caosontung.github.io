@@ -1,0 +1,252 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name= "Data science and analysis" content="web description"/>
+	<meta name= "author" content="Cao Tung"/>
+	<meta name= "country" content="Viet Nam"/>
+	<meta name= "viewport" content="width=device-width, initial-scale=1">
+	<!-- <link rel="stylesheet" href="css/10.css"> -->
+	<title>Cao Tung resume </title>
+	
+
+	<!-- CSS -->
+	<style>
+		#menu_text {
+			margin: 0;
+		}
+
+		#menu_text {
+			background-color:  #36ba71;
+			text-align: center;
+			padding: 80px;
+		}
+
+		nav {
+			background-color:  #2f4163;
+			overflow: hidden;
+		}
+
+		nav a {
+			color: white;
+			display: block;
+			padding: 14px 20px;
+			text-align: center;
+			text-decoration: none;
+			float: left;
+		}
+
+		nav a.menu_left{
+			float: left;
+		}
+		nav a.menu_right{
+			float: right;
+		}
+
+		nav a:hover {
+			background-color: #DDD;
+			color: black;
+		}
+
+		#left_side {
+			flex: 30%;
+			background-color: #f1f1f1;
+			padding: 10px 20px;
+		}
+		#right_side {
+			flex: 70%;
+			padding: 10px 20px;
+		}
+
+		#flex_container {
+			display: flex;
+			flex-wrap: nowrap
+		}
+		footer {
+			background-color: #2f4163;
+			color: white;
+			padding: 10px 20px;
+			text-align: center;
+		}
+		footer > a {
+			color: white;
+		}
+		table {
+			border-collapse: collapse;
+			width: 100%;
+		}
+
+		table td, table th {
+			border: 1px solid #ddd;
+			padding: 8px;
+		}
+
+		table tr:nth-child(even){background-color: #f2f2f2;}
+
+		table tr:hover {background-color: #ddd;}
+
+		table th {
+			padding-top: 12px;
+			padding-bottom: 12px;
+			text-align: left;
+			background-color: #04AA6D;
+			color: white;
+		}
+
+		.course_item {
+/*			width: 33%;
+			float: left;*/
+			text-align: center;
+			flex: 33%;
+		}
+
+		.course_img {
+			width: 90%;
+		}
+
+		#course_container {
+			display: flex;
+			flex-wrap: wrap;
+			padding: 10px 10px 5px 10px;
+		}
+		.course_title {
+			font-size: 150%;
+			font-weight: bolder;
+		}
+		.course_desc {
+			margin: 0px 10px 20px 10px;
+		}
+
+		@media(max-width: 800px) {
+			#left_side {
+				flex: 100%;
+			}
+			#right_side {
+				flex: 100%;
+			}
+			#flex_container {
+				flex-wrap: wrap
+			}
+			.course_item {
+			flex: 50%;
+			float: left;
+			text-align: center;
+			}
+
+	</style> 
+
+
+
+
+</head>
+<body>
+	<h1 id ="menu_text"> My Resume: Data science and analysis </h1>
+	<nav>
+		<a href="#contact" class="menu_left"> contact</a>
+		<a href="#edu" class="menu_left"> education</a>
+		<a href="#score" class="menu_left"> score</a>
+		<a href="#social" class="menu_right"> social media</a>
+		<a href="#past" class="menu_right"> past </a>
+
+	</nav>
+	<div id="flex_container">
+		<div id="left_side"> 
+			<h2 id = "contact"> About me </h2>
+				<img src="assets/picture.jpg" alt="my photo" width="200" height="150">  
+				<p><em> I am studying "data science, engineering and analysis" and my objective is become an expert in Artificial intelligence </em> </p>
+				<ul>
+		  			<li><em> <strong>Full name:</strong> Cao Son Tung </em></li>
+		  			<li><em><strong>Country:</strong> Viet Nam </em> </li>
+				</ul>  
+			<h2 id = "edu"> Education: </h2>
+				<ol>
+				  <li>Tran Phu - Hoan Kiem, Ha Noi Highschool</li>
+				  <li>Academy Of Finance</li>
+				  <li>Passed CFA level 1 2015</li>
+				</ol> 
+			<h2 id = "score"> Scores: </h2>
+			<table border = "1" style="width:100%">
+				<tr>
+					<th rowspan="2"></th>
+					<th colspan = "2">python</th>
+					<th rowspan="2">html,css</th>
+					<th rowspan="2">javascrift</th>
+				</tr>
+				<tr>
+					<td>M1</td>
+					<td>M2</td>
+				</tr>
+				<tr>
+					<th>2022</th>
+					<td>8</td>
+					<td>0</td>
+					<td>9</td>
+					<td>10</td>
+				</tr>
+				<tr>
+					<th>2023</th>
+					<td>10</td>
+					<td>0</td>
+					<td>2</td>
+					<td>9</td>
+				</tr>
+				<tr>
+					<th>2024</th>
+					<td>8</td>
+					<td>0</td>
+					<td>8</td>
+					<td>8</td>
+				</tr>
+			</table>
+			<h2 id = "social"> social media: </h2>
+			<p>Facebook: <a href = "https://www.facebook.com/caosontung.caosontungg"> Cao Tung </a> </p>
+			<p>youtube: <a href = "https://www.youtube.com/"> youtube </a> </p>
+		</div>
+
+		<div id="right_side"> 
+
+			<h2 id = "past"> My past: </h2>
+			<div id ="course_container">
+				<div class ="course_item">
+					<img class= "course_img" src="assets/ao_ma_canada.jpg"/>
+					<div class="course_title"> wedding</div>
+					<div class="course_desc">Take wedding jouney picture at AOF </div>
+				</div>
+				<div class ="course_item">
+					<img class= "course_img" src="assets/bavi_2019.jpg"/>
+					<div class="course_title"> bavi 2019</div>
+					<div class="course_desc">drive bycycle with my friends on the top of hill  </div>
+				</div>
+				<div class ="course_item">
+					<img class= "course_img" src="assets/kem_2_tuoi.jpg"/>
+					<div class="course_title"> Kem 2 tuổi</div>
+					<div class="course_desc">the second birthday of my sweetheart </div>
+				</div>
+				<div class ="course_item">
+					<img class= "course_img" src="assets/phansipang_2018.jpg"/>
+					<div class="course_title"> phansipang 2018</div>
+					<div class="course_desc">Hiding Top of Phansipang mountain </div>
+				</div>
+				<div class ="course_item">
+					<img class= "course_img" src="assets/kem_1.5_tuoi.jpg"/>
+					<div class="course_title"> Kem 1 tuổi</div>
+					<div class="course_desc"> the first birthday of my sweetheart</div>
+				</div>
+				<div class ="course_item">
+					<img class= "course_img" src="assets/tot_nghiep.jpg"/>
+					<div class="course_title"> tốt nghiệp</div>
+					<div class="course_desc">the lastday of my university, AOF </div>
+				</div>
+
+			</div>
+		
+
+		</div>
+	
+	</div>
+	<footer>
+		this webside is created by Cao Tung - <a href="mailto:tung.s.cao1910@gmail.com"> email me</a>
+	</footer>
+
+</body>
+</html>
