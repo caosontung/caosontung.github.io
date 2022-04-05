@@ -1,0 +1,26 @@
+* {
+	text-align: center;
+	background-color: #d1c78c;
+	padding:
+}
+#menu_text {
+	background-color: #d1c78c;
+	text-align: center;
+	padding: 10px;
+}
+nav {
+	background-color: #5e85b8;
+	padding: 14px 20px;
+
+
+}
+nav a{
+	color: white;
+	padding: 14px 20px;
+	text-decoration: none;
+	background-color: #5e85b8;
+}
+
+nav a:hover {
+	background-color: #192757;
+}
