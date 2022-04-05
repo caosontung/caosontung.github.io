@@ -19,6 +19,7 @@ nav a{
 	padding: 14px 20px;
 	text-decoration: none;
 	background-color: #5e85b8;
+	display: block;
 }
 
 nav a:hover {
